@@ -1,0 +1,2728 @@
+@font-face {
+    font-family: "bold";
+    src: url("../font/Proxima-Nova-Bold.otf");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url("../font/Proxima-Nova-Regular.otf");
+}
+
+button:focus {
+
+    outline: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#myDIV2 {
+    display: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.sonra{
+    border: none;
+    background-color: #fff;
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    width: 160px;
+    height: 70px;
+    padding: 0px 45px;
+    margin: 0;
+    border-right: 1px solid #e6e6e6;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item {
+    cursor: pointer;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid #e6e6e6;
+    font-family: regular;
+    font-size: 14px;
+
+
+}
+.bnone{
+    border: none;
+}
+
+.nav-link {
+    color: #68737a;
+}
+
+.nav-link:hover {
+    color: #68737a;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #b50536;
+}
+
+/*SLİDER*/
+.carousel-inner {
+    height: 680px;
+}
+
+.sliderimg {
+    max-width: 100%;
+    height: 680px;
+    object-fit: cover;
+
+}
+
+.col-lg-9 {
+    max-width: calc(100% - 481.55px);
+}
+
+.col-lg-3 {
+    max-width: 480px;
+}
+
+
+
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #989c9a;
+    background-clip: padding-box;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    margin-right: 16px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    border: 4px solid #b50536;
+    background-color: #ffff;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 155px;
+    right: 0;
+    bottom: 0;
+    left: 50px;
+    z-index: 10;
+    padding: 0;
+    color: #fff;
+    text-align: left;
+
+}
+
+.carousel-caption h3 {
+    font-family: regular;
+    font-size: 40px;
+    color: #b50938;
+}
+
+.carousel-caption h1 {
+    margin-top: -24px;
+    font-family: bold;
+    font-size: 80px;
+    color: #b50938;
+    letter-spacing: -2px;
+    word-spacing: -8px;
+
+}
+
+.carousel-caption h1:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 80px;
+    background-color: #b50938;
+    z-index: 1;
+}
+
+.carousel-caption p {
+    margin-top: 25px;
+    font-family: regular;
+    font-size: 24px;
+    color: #231f20;
+}
+
+.carousel-caption button {
+    background-color: #b50938;
+    width: 130px;
+    height: 44px;
+    font-family: bold;
+    font-size: 14px;
+    margin-top: 102px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+/*SLİDER SAĞ TARAF*/
+
+#myimg {
+    width: 480px;
+}
+
+.rightmodel {
+    position: absolute;
+    top: 170px;
+    left: 124px;
+}
+
+.kalpicon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cizgi1 {
+    display: inline-block;
+    width: 71px;
+    height: 1px;
+    background-color: #b50938;
+}
+
+.cizgi2 {
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    background-color: #b50938;
+}
+
+.rightmodel h3 {
+    font-family: regular;
+    font-size: 24px;
+    color: #b50938;
+}
+
+.rightmodel button {
+    width: 130px;
+    height: 44px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #b50938;
+    margin-left: 51px;
+    margin-top: 14px;
+    font-family: bold;
+    font-size: 14px;
+}
+
+.rightmodel button:hover {
+    opacity: 0.9;
+}
+
+/*SOCİAL MEDİA*/
+.social-media {
+    position: absolute;
+    right: 0px;
+    top: -12px;
+    z-index: 1;
+
+}
+
+.social-media a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #68737a;
+    margin-bottom: 1px;
+}
+
+.fa-facebook-f {
+    color: #fff;
+    margin: 9px 15px;
+}
+
+.social-media .face:hover {
+    background-color: #39579b;
+}
+
+.social-media .twit:hover {
+    background-color: #588dc9;
+}
+
+.social-media .google:hover {
+    background-color: #df2e2e;
+}
+
+.fa-twitter {
+    color: #fff;
+    margin: 10px 12px;
+}
+
+.fa-google-plus-g {
+    color: #ffF;
+    margin: 10px 11px;
+
+}
+
+/*SAĞ MENÜ*/
+
+.righttab {
+    width: 240px;
+    height: 100px;
+    border: none;
+    background-color: #d3d4d6;
+    font-family: bold;
+    font-size: 16px;
+    color: #68737a;
+    border-left: 1px solid #c2c3c5;
+    border-bottom: 1px solid #c2c3c5;
+    outline: none;
+}
+
+.rightmenu {
+    border: none;
+    background-color: #fff;
+    border-top: 2px solid #b50536;
+}
+
+.menu-dis {
+    width: 240px;
+    height: 120px;
+}
+
+.menu-box {
+    width: 205px;
+    height: 87px;
+}
+
+.direksiyon-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-right: 1px solid #e5e5e6;
+    border-bottom: 1px solid #e5e5e6;
+}
+
+.servis-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #e5e5e6;
+}
+
+.fiyat-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-right: 1px solid #e5e5e6;
+}
+
+.brosur-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.direksiyonr {
+    width: 36px;
+    height: 36px;
+    margin-left: 16px;
+}
+
+.direksiyont {
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+}
+
+.servisr {
+    width: 35px;
+    height: 36px;
+    margin-left: 35px;
+}
+
+.servist {
+    padding-left: 17px;
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+}
+
+.fiyatr {
+    width: 37px;
+    height: 36px;
+    margin-left: 15px;
+    margin-top: 32px;
+}
+
+.fiyatt {
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+    padding-top: 40px;
+}
+
+.brosurr {
+    width: 43px;
+    height: 36px;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.brosurt {
+    padding-top: 40px;
+    padding-left: 17px;
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+}
+
+/*SAĞ BUL*/
+.labelcontainer {
+    margin-top: 43px;
+    margin-left: 36px;
+
+    padding-left: 37px;
+    padding-top: 2px;
+
+    cursor: pointer;
+
+}
+
+.servis .labelcontainer {
+    margin-left: 0;
+}
+
+.labelcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 43px;
+    left: 36px;
+    height: 26px;
+    width: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #e6e6e7;
+    box-sizing: content-box
+}
+
+.servis .checkmark {
+    left: 5px;
+}
+
+.labelcontainer input:checked ~ .checkmark {
+    background-color: white;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.labelcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.labelcontainer .checkmark:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #b50536;
+    box-sizing: content-box
+}
+
+.labeltext {
+    font-family: bold;
+    font-size: 14px;
+    color: #68737a;
+}
+
+/*SELECT*/
+
+.custom-select {
+    width: 198px;
+    height: 47px;
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+    background: url(../images/arrow.png) no-repeat right 1.25rem center;
+    background-size: 13px 6px;
+    border: 1px solid #e5e5e6;
+    border-radius: 0;
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+.custom-select:focus {
+    border-color: #e5e5e6;
+    box-shadow: none;
+}
+
+.servis .custom-select {
+    margin-left: 5px;
+}
+
+#myDIV2 button {
+    width: 130px;
+    height: 44px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #b50938;
+    font-family: bold;
+    font-size: 14px;
+    margin-top: 29px;
+    margin-left: 175px;
+}
+
+/*SECTION 2*/
+/*TÜM MODELLER*/
+
+.contain1440 {
+    max-width: 62.5%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contain1200 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contain1200 h2 {
+    font-family: bold;
+    font-size: 36px;
+    color: #68737a;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+.kesfet-butonlar {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e6;
+}
+
+.kesfet-buton {
+    width: 132px;
+    height: 44px;
+    border: none;
+    background-color: #f2f2f2;
+    font-family: bold;
+    font-size: 14px;
+    color: #68737a;
+}
+.kesfet-active{
+    width: 132px;
+    height: 39px;
+    background-color: #e5e5e6;
+    color: #adb1b5;
+}
+
+.owl-carousel {
+    margin-top: 34px;
+}
+
+/*.owl-modeller{
+    width: 270px;
+    height: 227px;
+}
+.owl-modeller img{
+    height: 127px!important;
+    max-width: 100%;
+    width: auto!important;
+}*/
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 45px;
+    left: -100px;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: 45px;
+    right: -80px;
+}
+
+.owl-modeller h5,
+.owl-tekno h5 {
+    font-family: bold;
+    font-size: 16px;
+    color: #68737a;
+
+}
+
+.owl-modeller h6,
+.owl-tekno h6 {
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+
+}
+
+.owl-modeller img {
+    padding: 0 25px;
+}
+
+#owl1 {
+    margin-bottom: 46px;
+}
+
+/*500X*/
+.x500x {
+    height: 497px;
+    background-color: #68737a;
+}
+
+
+.x500x-logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 60px;
+}
+
+
+.x500x-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: regular;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    width: 465px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cars-img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.cars-img .crosplus-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -25px;
+}
+
+
+.cars-img .popstar-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -25px;
+}
+
+
+.cars-img .car-btn {
+    border: none;
+    background-color: #b50938;
+    color: white;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    font-size: 14px;
+    font-family: bold;
+}
+
+
+.cars-img .car-btn:hover {
+    background-color: #e8104b;
+    transition: 0.3s;
+}
+
+.right-border {
+    border-right: 1px solid #b3b9bc;
+    height: 89px;
+}
+
+/*Teknoloji*/
+#section-tekno .contain1440 h2 {
+    font-family: bold;
+    font-size: 36px;
+    color: #68737a;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 45px;
+}
+
+.owl-tekno {
+    margin-right: 20px;
+}
+
+#owl2 .owl-nav .owl-prev {
+    position: absolute;
+    top: 80px;
+    left: -100px;
+}
+
+#owl2 .owl-nav .owl-next {
+    position: absolute;
+    top: 80px;
+    right: -80px;
+}
+
+.owl-tekno img {
+    border-bottom: 2px solid #b50938;
+}
+
+.owl-tekno h5 {
+    margin: 30px 0;
+}
+
+#section-tekno {
+    background-color: #e5e5e6;
+}
+
+#owl2 {
+    padding-bottom: 20px;
+}
+
+/*FOOTER*/
+.footer-container {
+    max-width: 62.5%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.footer-ust {
+    padding-bottom: 39px;
+    border-bottom: 1px solid #e5e5e6;
+}
+
+.footer-social {
+    flex: 0 0 53.75%;
+    max-width: 53.75%;
+}
+
+.footer-social a {
+    padding-right: 15px;
+}
+
+.footer-right {
+    flex: 0 0 46.25%;
+    max-width: 46.25%;
+    line-height: 40px;
+}
+
+.footer-cmerkezi {
+    flex: 0 0 24%;
+    max-width: 24%;
+    font-family: regular;
+    font-size: 0.8333333333333333vw;
+    color: #68737a;
+    line-height: 40px;
+
+}
+
+.footer-no {
+    flex: 0 0 76%;
+    max-width: 76%;
+    text-align: right;
+    font-family: bold;
+    font-size: 0.8333333333333333vw;
+    color: #68737a;
+    padding-right: 10px;
+
+}
+
+.numaralar {
+    display: inline-block;
+    border-left: 1px solid #e5e5e6;
+    height: 27px;
+    line-height: 27px;
+}
+
+.no3 {
+    width: 34%;
+}
+
+.no2 {
+    width: 36.5%;
+    text-align: center;
+}
+
+.no1 {
+    width: 27%;
+    text-align: center;
+}
+.footer-social-img{
+    width: 40px;
+    height: 40px;
+}
+
+/******************************************/
+.footer-orta{
+    padding-top: 38px;
+}
+.footer-list{
+    padding-top: 15px;
+    display: block;
+}
+.footer-list a{
+    display: block;
+    font-size: 14px;
+    font-family: regular;
+    color: #68737a;
+    padding-bottom: 10px;
+}
+.footer-list a:hover{
+    text-decoration: none;
+}
+.footer-mh{
+    font-family: bold;
+    font-size: 14px;
+    color: #68737a;
+}
+.footer-alt{
+    padding-top: 30px;
+    position: relative;
+}
+.footer-copyright{
+    position: absolute; 
+    top: 39px;
+    margin-left: 120px; 
+    background: white;
+    padding-right: 20px;
+    font-size: 12px;
+    font-family: regular;
+    color: #68737a;
+}
+.copyrighthr{
+    background: #e5e5e6;
+}
+.koc-img{
+    position: absolute;
+    top: 34px;
+    background: white;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+/**ekleme**/
+#myLinks{
+    display: none;
+}
+#myLinks a{
+    display: block;
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #d6d6d6;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    padding-left: 24px;
+    
+    
+}
+.gizlimerkez{
+    font-family: regular;
+    font-size: 16px;
+    height: 73px;
+    padding-left: 24px;
+    line-height: 73px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.gizli1{
+    color: #68737a;
+}
+.gizlino{
+    font-family: bold;
+    font-size: 16px;
+    padding-left: 24px;
+    padding-top: 15px;
+
+}
+.gizli2{
+    color: #68737a;
+}
+.mb5000{
+   margin-bottom: 2000px;
+}
+.modeller button{
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+    border: none;
+    background-color: #fff;
+}
+.dropdown-item{
+    font-family: regular;
+    font-size: 14px;
+    color: #68737a;
+    border-bottom: 1px solid #d6d6d6;
+    line-height: 52px;
+    height: 52px;
+}
+.dropdown-item:hover{
+    border-bottom: 1px solid #b50536;
+}
+.dropdown-menu{
+    left:-20%;
+    padding: 0;
+    min-width: auto;
+    width: 250px;
+}
+/**ekleme**/
+
+
+/******************************************/
+/**RESPONSİVE**/
+@media (min-width: 1px) and (max-width: 991px){
+    #mysonrasi {
+    background: url(../images/dropmodel.png);
+    background-position: right 1.25rem center;
+    background-repeat: no-repeat;
+    background-size: 15px 10px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+    .contain1440 {
+        max-width: 720px;
+    }
+
+    .footer-container {
+        max-width: 720px;
+    }
+    .footer-social{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .footer-right{
+        line-height: 1.2;
+        height: 42px;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .footer-cmerkezi {
+        font-size: 16px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        line-height: 1.2;
+    }
+
+    .footer-no {
+        font-size: 16px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+    .no1, .no2{
+        text-align: left;
+        padding-right: 10px;
+    }
+    .no1, .no2, .no3{
+        width: auto;
+    }
+    .numaralar{
+        border: none;
+    }
+
+
+    .konteyn768 {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .sliderimg {
+        max-width: auto;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .col-lg-9 {
+        max-width: 100%;
+    }
+
+    .col-lg-3 {
+        max-width: 100%;
+    }
+
+    #myimg {
+        width: 384px;
+    }
+
+    .hbtn {
+        width: 22px;
+        height: 20px;
+    }
+
+    .navbar-toggler {
+        width: 70px;
+        height: 70px;
+        border-left: 1px solid #e6e6e6;
+    }
+
+    .arrowdown {
+        width: 15px;
+        height: 10px;
+    }
+
+    .nav-item {
+        width: 365px;
+        height: 52px;
+        border-bottom: 1px solid #e6e6e6;
+        justify-content: flex-start;
+    }
+    .nav-item:hover{
+        border-bottom: 1px solid #b50536;
+    }
+    .bordertop{
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .nav-item:first-child {
+        display: none;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left;
+        padding-left: 24px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        z-index: 100;
+        background-color: #ffff;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 103px;
+        left: 24px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 26px;
+        padding-bottom: 15px;
+
+    }
+
+    .carousel-caption h1 {
+        font-size: 54px;
+    }
+
+    .carousel-caption p {
+        margin-top: 0px;
+        font-size: 22px;
+    }
+
+    .carousel-caption button {
+        display: none;
+    }
+
+    .sliderimg {
+        display: block;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+
+    .social-media {
+        display: none;
+    }
+
+    .rightbg {
+        width: 384px;
+        height: 272px;
+    }
+
+    .rightmodel {
+        position: absolute;
+        top: 135px;
+        left: 99px;
+    }
+
+    .cizgi1 {
+        height: 2px;
+        width: 56px;
+    }
+
+    .kalpicon {
+        padding-left: 11px;
+        padding-right: 10px;
+    }
+
+    .cizgi2 {
+        height: 2px;
+        width: 56px;
+    }
+
+    .rightmodel h3 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+
+    .rightmodel button {
+        margin: 0;
+        margin-top: 5px;
+        margin-left: 28px;
+    }
+
+    .righttab {
+        width: 192px;
+        height: 70px;
+    }
+
+    .menu-dis {
+        width: 192px;
+        height: 100px;
+    }
+
+    .menu-box {
+        width: 169px;
+        height: 78px;
+    }
+
+    .direksiyonr {
+        margin-left: 16px;
+    }
+
+    .direksiyont {
+        font-family: regular;
+        font-size: 14px;
+        color: #68737a;
+    }
+
+    .servisr {
+        margin-left: 27px;
+    }
+
+    .servist {
+        padding-left: 14px;
+        font-family: regular;
+        font-size: 14px;
+        color: #68737a;
+    }
+
+    .fiyatr {
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+
+    .fiyatt {
+        font-family: regular;
+        font-size: 14px;
+        color: #68737a;
+        padding-top: 33px;
+    }
+
+    .brosurr {
+        margin-left: 27px;
+        margin-top: 24px;
+    }
+
+    .brosurt {
+        padding-top: 33px;
+        padding-left: 14px;
+        font-family: regular;
+        font-size: 14px;
+        color: #68737a;
+    }
+
+    .labelcontainer {
+        margin-top: 33px;
+        margin-left: 59px;
+
+        padding-left: 0;
+        padding-top: 0;
+
+        cursor: pointer;
+
+    }
+
+    .servis .labelcontainer {
+        margin-left: 40px;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 31px;
+        left: 24px;
+        height: 26px;
+        width: 26px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid #e6e6e7;
+        box-sizing: content-box
+    }
+
+    .servis .checkmark {
+        left: 5px;
+    }
+
+    .custom-select {
+        width: 163px;
+        height: 44px;
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+
+    #myDIV2 button {
+        margin-left: 127px;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 2200px) and (min-width: 992px) {
+    .gizli {
+        display: none;
+    }
+
+    .modeller {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    .konteyn{
+        margin: 0;
+    }
+    .contain1440 {
+        max-width: 600px;
+    }
+
+    .owl-modeller {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-tekno {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: 45px;
+        left: 0px;
+    }
+
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 45px;
+        right: 0px;
+    }
+
+    .owl-modeller img {
+        width: auto !important;
+        margin: 0 auto;
+    }
+
+    .owl-modeller h5 {
+        padding-left: 70px;
+    }
+
+    .owl-modeller h6 {
+        padding-left: 70px;
+    }
+
+    #owl2 .owl-nav .owl-prev {
+        position: absolute;
+        top: 114px;
+        left: 0px;
+    }
+
+    #owl2 .owl-nav .owl-next {
+        position: absolute;
+        top: 114px;
+        right: 0px;
+    }
+
+    .owl-tekno img {
+        border-bottom: 4px solid #b50938;
+    }
+
+    .owl-tekno h5 {
+        font-size: 32px;
+    }
+
+    .owl-tekno h6 {
+        font-size: 28px;
+    }
+
+    .owl-modeller h5 {
+        font-size: 32px;
+    }
+
+    .owl-modeller h6 {
+        font-size: 28px;
+    }
+
+
+
+
+    .col-lg-9 {
+        max-width: 100%;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .sliderimg {
+        max-width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .col-lg-3 {
+        max-width: 100%;
+    }
+
+    #myimg {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar-toggler {
+        width: 100px;
+        height: 100px;
+        border-left: 2px solid #e6e6e6;
+    }
+
+    .navbar-brand {
+        width: 132px;
+        height: 100px;
+        border-right: 2px solid #e6e6e6;
+        padding: 0 20px;
+    }
+    .nav-item {
+        width: 540px;
+        border-bottom: 1px solid #e6e6e6;
+        justify-content: flex-start;
+    }
+
+    .nav-item:first-child {
+        display: none;
+    }
+
+    .nav-link {
+        text-align: left;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        z-index: 100;
+        background-color: #ffff;
+    }
+
+    #mylogo {
+        margin-top: 5px;
+    }
+
+    .modeller button {
+        font-family: regular;
+        font-size: 28px;
+        color: #68737a;
+    }
+
+    .carousel-caption {
+        top: 27px;
+        left: 20px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 26px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 50px;
+        margin-top: -10px;
+    }
+
+    .carousel-caption h1:after {
+        height: 4px;
+        width: 91px;
+        background-color: #b50938;
+        z-index: 1;
+    }
+
+    .carousel-caption p {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .carousel-caption button {
+        display: none;
+    }
+
+
+
+    .rightmodel {
+        position: absolute;
+        top: 7px;
+        left: 370px;
+        right: 0;
+    }
+
+    .rightmodel h3 {
+        font-size: 22px;
+        margin-left: -2px;
+    }
+
+    .kalpicon {
+        width: 46px;
+        height: 30px;
+        padding: 0;
+        margin-left: 7px;
+        margin-right: 6px;
+    }
+
+    .cizgi1 {
+        height: 2px;
+    }
+
+    .cizgi2 {
+        height: 2px;
+    }
+
+    .rightmodel button {
+        margin: 0;
+        width: 211px;
+        height: 80px;
+        font-size: 28px;
+    }
+
+    .konteyn {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .sliderimg {
+        display: block;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .margintop {
+        margin-top: 20px;
+    }
+
+    .righttab {
+        width: 300px;
+        font-size: 28px;
+
+    }
+
+    .menu-dis {
+        width: 300px;
+        height: 167px;
+    }
+
+    .menu-box {
+        width: 278px;
+        height: 146px;
+    }
+
+    .direksiyonr {
+        width: 58px;
+        height: 58px;
+        margin: 0;
+    }
+
+    .direksiyont {
+        padding-left: 7px;
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .servisr {
+        width: 56px;
+        height: 58px;
+        margin-left: 22px;
+    }
+
+    .servist {
+        font-size: 28px;
+        line-height: 1;
+        padding-left: 30px;
+    }
+
+    .fiyatr {
+        width: 60px;
+        height: 58px;
+        margin-top: 44px;
+        margin-left: 0px;
+    }
+
+    .fiyatt {
+        font-size: 28px;
+        line-height: 1;
+        padding-left: 7px;
+        padding-top: 58px;
+    }
+
+    .brosurr {
+        width: 68px;
+        height: 58px;
+        margin-top: 44px;
+        margin-left: 22px;
+    }
+
+    .brosurt {
+        font-size: 28px;
+        line-height: 1;
+        padding-left: 30px;
+        padding-top: 58px;
+    }
+
+    .direksiyon-box {
+        border-right: 2px solid #e5e5e6;
+        border-bottom: 2px solid #e5e5e6;
+    }
+
+    .servis-box {
+        border-bottom: 2px solid #e5e5e6;
+    }
+
+    .fiyat-box {
+        border-right: 2px solid #e5e5e6;
+    }
+
+    .x500x-text {
+        font-size: 36px;
+        margin-top: 50px;
+        line-height: 1.2;
+    }
+
+    .x500x {
+        height: 720px;
+
+    }
+
+    .contain600 {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+
+
+    .x500x-logo {
+
+        padding-top: 80px;
+    }
+
+
+    .cars-img .crosplus-btn {
+        margin-top: 0px;
+    }
+
+
+    .cars-img .popstar-btn {
+        margin-top: 0px;
+    }
+
+
+    .cars-img .car-btn {
+        width: 250px;
+        height: 80px;
+        font-size: 28px;
+    }
+
+    .right-border {
+        border-right: 1px solid #b3b9bc;
+        height: 100px;
+        margin-top: -70px;
+    }
+
+    /*SATIŞ NOKTASI BUL*/
+    .labelcontainer {
+        margin-top: 40px;
+        margin-left: 82px;
+
+        padding-left: 0px;
+        padding-top: 0px;
+
+        cursor: pointer;
+
+    }
+
+    .servis .labelcontainer {
+        margin-left: 83px;
+    }
+
+    .labelcontainer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 52px;
+        width: 52px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid #e6e6e7;
+        box-sizing: content-box
+    }
+
+    .servis .checkmark {
+        left: 20px;
+    }
+
+    .labelcontainer input:checked ~ .checkmark {
+        background-color: white;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .labelcontainer input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    .labelcontainer .checkmark:after {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #b50536;
+        box-sizing: content-box
+    }
+
+    .labeltext {
+        font-family: bold;
+        font-size: 24px;
+        color: #68737a;
+    }
+
+    /*SELECT*/
+    
+
+    .custom-select {
+        width: 258px;
+        height: 80px;
+        font-family: regular;
+        font-size: 28px;
+        color: #68737a;
+        background: url(../images/arrow.png) no-repeat right 1.25rem center;
+        background-size: 26px 12px;
+        border: 1px solid #e5e5e6;
+        border-radius: 0;
+        margin-left: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .custom-select:focus {
+        border-color: #e5e5e6;
+        box-shadow: none;
+    }
+
+    .servis .custom-select {
+        margin-left: 20px;
+    }
+
+    #myDIV2 button {
+        width: 211px;
+        height: 80px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background-color: #b50938;
+        font-family: bold;
+        font-size: 28px;
+        margin-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contain-height {
+        height: 434px;
+        border-left: 2px solid #e5e5e6;
+        border-right: 2px solid #e5e5e6;
+        border-bottom: 2px solid #e5e5e6;
+    }
+
+    .rightmenu {
+        border-right: 2px solid #e5e5e6;
+    }
+
+    .contain1440 h2 {
+        padding-top: 0px;
+        margin-bottom: 45px;
+    }
+
+    .contain1200 h2 {
+        margin-top: 79px;
+    }
+
+    #section-tekno .contain1440 h2 {
+        padding-top: 50px;
+    }
+
+    .footer-container{
+        max-width: 600px;
+    }
+    .footer-social{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 auto
+    }
+    .footer-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer-social-img{
+        width: 80px;
+        height: 80px;
+    }
+    .footer-social:first-child{
+        padding-left: 50px;
+    }
+    .footer-social a{
+        padding-right: 20px;
+    }
+    .footer-cmerkezi{
+        padding-top: 50px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 32px;
+    }
+    .footer-no{
+        padding-top: 10px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 28px;
+        text-align: left;
+    }
+    .no1, .no2, .no3{
+        width: auto;
+    }
+    .no1, .no2{
+        padding-right: 10px;
+    }
+    .numaralar{
+        border: none;
+    }
+    .footer-mh{
+        font-size: 28px;
+    }
+    .footer-list a{
+        font-size: 28px;
+    }
+    .footer-orta-sag{
+        padding-top: 40px;
+    }
+    .nav-item {
+        width: 540px;
+        height: 103px;
+        border-bottom: 1px solid #e6e6e6;
+        justify-content: flex-start;
+        font-size: 28px;
+    }
+    #mysonrasi{
+        background-size: 30px 20px;
+    }
+    .nav-item:hover{
+        border-bottom: 1px solid #b50536;
+    }
+    .bordertop{
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .nav-item:first-child {
+        display: none;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        z-index: 100;
+        background-color: #ffff;
+    }
+    .modeller button{
+    font-family: regular;
+    font-size: 28px;
+    color: #68737a;
+    border: none;
+    background-color: #fff;
+}
+    .dropdown-item{
+        font-size: 28px;
+    }
+    #myLinks a{
+        height: 103px;
+        line-height: 103px;
+        padding-left: 30px;
+        font-size: 28px;
+    }
+    .gizlimerkez{
+        font-size: 32px;
+        padding-left: 30px;
+        height: 146px;
+        line-height: 146px;
+    }
+    .gizlino{
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 32px;
+    }
+    .mb5000{
+       margin-bottom: 3000px; 
+    }
+
+
+}
+
+@media (min-width: 1px) and (max-width: 639px) {
+    .konteyn{
+        margin: 0;
+    }
+    .footer-copyright{
+        padding-right: 3.125vw;
+    }
+    #my500X{
+        max-width: 100%;
+        height: auto;
+    }
+    .owl-carousel     .owl-modeller img{
+        
+        max-width: 75%;
+        height: auto;
+    }
+    .footer-mh{
+        font-size: 4.375vw;
+    }
+    .footer-list a{
+        font-size: 4.375vw;
+    }
+    .footer-orta-sag{
+        padding-top: 6.25vw;
+    }
+    .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+    .col-sm-12{
+        -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%; 
+    }
+    
+    .contain1440 {
+        max-width: 600px;
+    }
+
+    .contain1440 h2 {
+        padding-top: 0px;
+        margin-bottom: 5vw;
+    }
+
+    .contain1200 h2 {
+        margin-top: 12.34375vw;
+    }
+
+    .owl-modeller {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-tekno {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: 45px;
+        left: 0px;
+    }
+
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 45px;
+        right: 0px;
+    }
+
+    .owl-modeller img {
+        width: auto !important;
+        margin: 0 auto;
+    }
+
+    .owl-modeller h5 {
+        padding-left: 70px;
+    }
+
+    .owl-modeller h6 {
+        padding-left: 70px;
+    }
+
+    .owl-tekno img {
+        border-bottom: 4px solid #b50938;
+    }
+
+    .owl-tekno h5 {
+        font-size: 5.007824726134585vw;
+    }
+
+    .owl-tekno h6 {
+        font-size: 4.381846635367762vw;
+    }
+
+    .owl-modeller h5 {
+        font-size: 5.007824726134585vw;
+    }
+
+    .owl-modeller h6 {
+        font-size: 4.381846635367762vw;
+    }
+
+    #owl2 .owl-nav .owl-prev {
+        position: absolute;
+        top: 114px;
+        left: 0px;
+    }
+
+    #owl2 .owl-nav .owl-next {
+        position: absolute;
+        top: 114px;
+        right: 0px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        z-index: 100;
+        background-color: #ffff;
+    }
+
+    .hbtn {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .col-lg-9 {
+        max-width: 100%;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .sliderimg {
+        max-width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .col-lg-3 {
+        max-width: 100%;
+    }
+
+    #myimg {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar-toggler {
+        width: 15.649vw;
+        height: 15.649vw;
+        border-left: 2px solid #e6e6e6;
+    }
+
+    .navbar-brand {
+        width: 20.657vw;
+        height: 15.649vw;
+        border-right: 2px solid #e6e6e6;
+        padding: 0 3.129vw;
+    }
+
+    .arrowdown {
+        width: 4.538341158059468vw;
+        height: 2.97339593114241vw;
+    }
+
+    #mylogo {
+        margin-top: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .modeller button {
+        font-family: regular;
+        font-size: 4.38vw;
+        color: #68737a;
+    }
+
+    .carousel-caption {
+        top: 4.22vw;
+        left: 3.12vw;
+    }
+
+    .carousel-caption h3 {
+        font-size: 4.06vw;
+    }
+
+    .carousel-caption h1 {
+        font-size: 7.824vw;
+        margin-top: -10px;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+
+    .carousel-caption h1:after {
+        height: 0.6259vw;
+        width: 14.241vw;
+        background-color: #b50938;
+        z-index: 1;
+    }
+
+    .carousel-caption p {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 4.38vw;
+        line-height: 1;
+    }
+
+    .carousel-caption button {
+        display: none;
+    }
+
+
+
+    .rightmodel {
+        position: absolute;
+        top: 3.85%;
+        left: 61.7%;
+        right: 0;
+    }
+
+    .rightmodel h3 {
+        font-size: 3.4vw;
+        margin: 0;
+        margin-bottom: 1.5vw;
+        margin-left: 0.3125vw;
+    }
+
+    .kalpicon {
+        width: 7vw;
+        height: 4.69vw;
+        padding: 0;
+        margin-left: 3.85%;
+        margin-right: 3.85%;
+    }
+
+    .cizgi1 {
+        width: 11vw;
+        height: 0.3125vw;
+    }
+
+    .cizgi2 {
+        width: 11vw;
+        height: 0.3125vw;
+    }
+
+    .rightmodel button {
+        margin: 0;
+        width: 33vw;
+        height: 12.5vw;
+        font-size: 4.38vw;
+    }
+
+    .konteyn {
+        width: 93.75555%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .sliderimg {
+        display: block;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .margintop {
+        margin-top: 20px;
+    }
+
+    .righttab {
+        width: 46.95vw;
+        font-size: 4.38vw;
+        height: 15.65vw;
+    }
+
+    .menu-dis {
+        width: 10vw;
+        height: 26.13vw;
+    }
+
+    .menu-box {
+        width: 43.50vw;
+        height: 22.85vw;
+    }
+
+    .direksiyonr {
+        width: 9.07vw;
+        height: 9.07vw;
+        margin: 0;
+    }
+
+    .direksiyont {
+        padding-left: 7px;
+        font-size: 4.38vw;
+        line-height: 1;
+    }
+
+    .servisr {
+        width: 9vw;
+        height: 9.07vw;
+        margin-left: 22px;
+    }
+
+    .servist {
+        font-size: 4.38vw;
+        line-height: 1;
+        padding-left: 30px;
+    }
+
+    .fiyatr {
+        width: 9.38vw;
+        height: 9.07vw;
+        margin-top: 6.885758998435055vw;
+        margin-left: 0px;
+    }
+
+    .fiyatt {
+        font-size: 4.38vw;
+        line-height: 1;
+        padding-left: 7px;
+        padding-top: 9.0625vw;
+    }
+
+    .brosurr {
+        width: 10.64vw;
+        height: 9.07vw;
+        margin-top: 6.885758998435055vw;
+        margin-left: 22px;
+    }
+
+    .brosurt {
+        font-size: 4.38vw;
+        line-height: 1;
+        padding-left: 30px;
+        padding-top: 9.0625vw;
+    }
+
+    .direksiyon-box {
+        border-right: 2px solid #e5e5e6;
+        border-bottom: 2px solid #e5e5e6;
+    }
+
+    .servis-box {
+        border-bottom: 2px solid #e5e5e6;
+    }
+
+    .fiyat-box {
+        border-right: 2px solid #e5e5e6;
+    }
+
+    .col-xs-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-xs-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .carousel-indicators li {
+        width: 1.5625vw;
+        height: 1.5625vw;
+        margin-right: 2.5vw;
+    }
+
+    .carousel-indicators .active {
+        border: 0.625vw solid #b50536;
+    }
+
+    .x500x-text {
+        font-size: 5.625vw;
+        margin-top: 7.8125vw;
+        line-height: 1.2;
+    }
+
+    .x500x {
+        height: 112.5vw;
+
+    }
+
+    .contain600 {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+
+
+    .x500x-logo {
+
+        padding-top: 12.5vw;
+    }
+
+
+    .cars-img .crosplus-btn {
+        margin-top: 0;
+    }
+
+
+    .cars-img .popstar-btn {
+        margin-top: 0;
+    }
+
+
+    .cars-img .car-btn {
+        width: 39.0625vw;
+        height: 12.5vw;
+        font-size: 4.375vw;
+    }
+
+    .right-border {
+        border-right: 1px solid #b3b9bc;
+        height: 15.625vw;
+        margin-top: -10.9375vw;
+    }
+
+    /*SATIŞ NOKTASI BUL*/
+    .labelcontainer {
+        margin-top: 6.25vw;
+        margin-left: 12.8125vw;
+
+        padding-left: 0px;
+        padding-top: 0px;
+
+        cursor: pointer;
+
+    }
+
+    .servis .labelcontainer {
+        margin-left: 12.96875vw;
+    }
+
+    .labelcontainer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 4.6875vw;
+        left: 3.125vw;
+        height: 8.125vw;
+        width: 8.125vw;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid #e6e6e7;
+        box-sizing: content-box
+    }
+
+    .servis .checkmark {
+        left: 3.125vw;
+    }
+
+    .labelcontainer input:checked ~ .checkmark {
+        background-color: white;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .labelcontainer input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    .labelcontainer .checkmark:after {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 4.375vw;
+        height: 4.375vw;
+        border-radius: 50%;
+        background: #b50536;
+        box-sizing: content-box
+    }
+
+    .labeltext {
+        font-family: bold;
+        font-size: 3.75vw;
+        color: #68737a;
+    }
+
+    /*SELECT*/
+
+    .custom-select {
+        width: 40.3125vw;
+        height: 12.5vw;
+        font-family: regular;
+        font-size: 3.375vw;
+        color: #68737a;
+        background: url(../images/arrow.png) no-repeat right 1.25rem center;
+        background-size: 4.0625vw 1.875vw;
+        border: 1px solid #e5e5e6;
+        border-radius: 0;
+        margin-left: 3.125vw;
+        margin-top: 4.6875vw;
+        cursor: pointer;
+    }
+
+    .custom-select:focus {
+        border-color: #e5e5e6;
+        box-shadow: none;
+    }
+
+    .servis .custom-select {
+        margin-left: 3.125vw;
+    }
+
+    #myDIV2 button {
+        width: 32.96875vw;
+        height: 12.5vw;
+        border: none;
+        outline: none;
+        color: #fff;
+        background-color: #b50938;
+        font-family: bold;
+        font-size: 4.375vw;
+        margin-top: 4.53125vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contain-height {
+        height: 67.8125vw;
+        border-left: 2px solid #e5e5e6;
+        border-right: 2px solid #e5e5e6;
+        border-bottom: 2px solid #e5e5e6;
+    }
+
+    .rightmenu {
+        border-right: 2px solid #e5e5e6;
+    }
+    
+    /*footer*/
+    
+    .footer-container{
+        max-width: 600px;
+    }
+    .footer-social{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 auto
+    }
+    .footer-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer-social-img{
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+    .footer-social:first-child{
+        padding-left: 7.8125vw;
+    }
+    .footer-social a{
+        padding-right: 3.125vw;
+    }
+    .footer-cmerkezi{
+        padding-top: 7.8125vw;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 5vw;
+    }
+    .footer-no{
+        padding-top: 1.5625vw;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 4.375vw;
+        text-align: left;
+    }
+    .no1, .no2, .no3{
+        width: auto;
+    }
+    .no1, .no2{
+        padding-right: 1.5625vw;
+    }
+    .numaralar{
+        border: none;
+    }
+    .x500x-text{
+     width: auto;    
+    }
+    /*.*/
+     .nav-item {
+        width: 84.375vw;
+        height: 16.09375vw;
+        border-bottom: 1px solid #e6e6e6;
+        justify-content: flex-start;
+        font-size: 4.375vw;
+    }
+    #mysonrasi{
+        background-size: 4.6875vw 3.125vw;
+    }
+    .nav-item:hover{
+        border-bottom: 1px solid #b50536;
+    }
+    .mb5000{
+       margin-bottom: 3000px; 
+    }
+    .bordertop{
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .nav-item:first-child {
+        display: none;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left;
+        padding-left: 4.6875vw;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        z-index: 100;
+        background-color: #ffff;
+    }
+    .modeller button{
+    font-family: regular;
+    font-size: 4.375vw;
+    color: #68737a;
+    border: none;
+    background-color: #fff;
+}
+    .dropdown-item{
+        font-size: 4.375vw;
+    }
+    #myLinks a{
+        height: 16.09375vw;
+        line-height: 16.09375vw;
+        padding-left: 4.6875vw;
+        font-size: 4.375vw;
+    }
+    .gizlimerkez{
+        font-size: 5vw;
+        padding-left: 4.6875vw;
+        height: 22.8125vw;
+        line-height: 22.8125vw;
+    }
+    .gizlino{
+        padding-left: 4.6875vw;
+        padding-top: 4.6875vw;
+        font-size: 5vw;
+    }
+    
+
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+    .konteyn{
+    margin-top: 10px;
+}
+    .col-lg-9 {
+        max-width: 100%;
+        flex: auto;
+    }
+
+    .sliderimg {
+
+        max-width: 100%;
+        display: block;
+        width: 100%;
+    }
+
+    .col-lg-3 {
+        max-width: 100%;
+        flex: auto;
+    }
+
+    .col-lg-12 {
+        max-width: 50%;
+    }
+
+    .konteyn {
+        margin-top: 20px;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .contain1440 {
+        max-width: 960px;
+    }
+
+    .footer-container {
+        max-width: 960px;
+    }
+    .footer-right{
+        line-height: 1.2;
+        height: 42px;
+    }
+
+    .footer-cmerkezi {
+        font-size: 16px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        line-height: 1.2;
+    }
+
+    .footer-no {
+        font-size: 16px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+    .no1, .no2{
+        text-align: left;
+        padding-right: 10px;
+    }
+    .numaralar{
+        border: none;
+    }
+    .no1, .no2, .no3{
+        width: auto;
+    }
+    #owl2 .owl-nav .owl-next {
+    position: absolute;
+    top: 50px;
+    right: -80px;
+    }
+    #owl2 .owl-nav .owl-prev {
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 440px) {
+    .contain1200 h2{
+        font-size: 5.625vw
+    }
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+    }
+
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+    }
+#owl2 .owl-nav .owl-prev {
+        position: absolute;
+        top: 114px;
+        left: 0px;
+    }
+
+    #owl2 .owl-nav .owl-next {
+        position: absolute;
+        top: 114px;
+        right: 0px;
+    }
+    .cars-img .crosplus-btn {
+        margin-top: 0;
+    }
+
+
+    .cars-img .popstar-btn {
+        margin-top: 0;
+    }
+    .footer-copyright{
+        font-size: 10px;
+    }
+}
+
+
+

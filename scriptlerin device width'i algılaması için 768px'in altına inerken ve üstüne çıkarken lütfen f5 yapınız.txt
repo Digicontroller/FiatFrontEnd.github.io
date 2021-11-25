@@ -1,0 +1,1 @@
+scriptlerin device width'i algýlamasý için 768px'in altýna inerken ve üstüne çýkarken lütfen f5 yapýnýz
